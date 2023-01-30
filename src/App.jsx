@@ -1,14 +1,14 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+// import reactLogo from './assets/react.svg'
 // import './App.css'
 
 import FirstLayer from "./components/FirstLayer";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import snakeandladderImg from "./assets/snakeandladder.jpg";
-import taraeat1 from "./assets/taraeat1.jpg";
-import taraeat from "./assets/taraeat.jpg";
-import twitty from "./assets/twitty.jpg";
-import triangle from "./assets/png/triangle.png";
+// import snakeandladderImg from "./assets/snakeandladder.jpg";
+// import taraeat1 from "./assets/taraeat1.JPG";
+// import taraeat from "./assets/taraeat.JPG";
+// import twitty from "./assets/twitty.jpg";
+// import triangle from "./assets/png/triangle.png";
 import TextSphere from "./components/TagCloud";
 function App() {
   const [count, setCount] = useState(0)
