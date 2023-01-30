@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from "react";
 // import reactLogo from './assets/react.svg'
 // import './App.css'
 
@@ -11,60 +11,56 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 // import triangle from "./assets/png/triangle.png";
 import TextSphere from "./components/TagCloud";
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div>
-    {/* bg-[#2D2E31] */}
-    {/* <Parallax pages={5} className="overflow-y-scroll no-scrollbar">
+      {/* bg-[#2D2E31] */}
+      {/* <Parallax pages={5} className="overflow-y-scroll no-scrollbar">
   
       <FirstLayer/> 
  <SecondLayer/>
    
     </Parallax> */}
 
-    <Parallax
-      pages={5}
-      className="overflow-y-scroll no-scrollbar bg-[#14141B]"
-    >
-      {/* <ParallaxLayer offset={0} speed={0.5} style={{ ...alignCenter, justifyContent: 'center' }}>
+      <Parallax
+        pages={5}
+        className="overflow-y-scroll no-scrollbar bg-[#14141B]"
+      >
+        {/* <ParallaxLayer offset={0} speed={0.5} style={{ ...alignCenter, justifyContent: 'center' }}>
   <p className={styles.scrollText}>Scroll down</p>
 </ParallaxLayer> */}
-      <FirstLayer />
-      <ParallaxLayer offset={1} speed={0.5} className="flex w-full h-screen">
-        <div className='basis-1/2 flex flex-col p-20 justify-center'>
-        <div className='text-3xl font-semibold text-white'><span className='text-colorTheme'>Skills</span> and tools</div>
-        <div className='text-[#BFBFC1] py-10 w-[70%]'>
-          For a more <span className='text-colorTheme'> detailed</span> overview, please feel free to check the tools that were used on a per-project basis.
-        </div>
-        </div>
-        <div className='basis-1/2 flex justify-center items-center'>
-        <TextSphere />
-        </div>
-      </ParallaxLayer>
-      <ParallaxLayer offset={2} speed={0.5} className="flex flex-col">
-       <div className='bg-[#1D1D25] flex h-full'>
-        <div className='basis-1/2 flex justify-center items-center text-[#BFBFC1]'>
-          <div className='flex flex-col gap-2'>
-          <div>
-          Take a look of what we've created and inspired by
+        <FirstLayer />
+        <ParallaxLayer offset={1} speed={0.5} className="flex w-full h-screen">
+          <div className="basis-1/2 flex flex-col p-20 justify-center">
+            <div className="text-3xl font-semibold text-white">
+              <span className="text-colorTheme">Skills</span> and tools
+            </div>
+            <div className="text-[#BFBFC1] py-10 w-[70%]">
+              For a more <span className="text-colorTheme"> detailed</span>{" "}
+              overview, please feel free to check the tools that were used on a
+              per-project basis.
+            </div>
           </div>
-          <div className='border border-colorTheme'>See more</div>
-      
+          <div className="basis-1/2 flex justify-center items-center">
+            <TextSphere />
           </div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={2} speed={0.5} className="flex flex-col">
+          <div className="bg-[#1D1D25] flex h-full">
+            <div className="basis-1/2 flex justify-center items-center text-[#BFBFC1]">
+              <div className="flex flex-col gap-2">
+                <div>Take a look of what we've created and inspired by</div>
+                <div className="border border-colorTheme">See more</div>
+              </div>
+            </div>
+            <div className="basis-1/2">asdasdasd</div>
           </div>
-           <div className='basis-1/2'>
-          asdasdasd
-        </div>
-          
-       </div>
-       <div className='h-full bg-red-500'>
-        Lets talk about the project
-       </div>
-      </ParallaxLayer>
-      {/* <SecondLayer/> */}
+          <div className="h-full bg-red-500">Lets talk about the project</div>
+        </ParallaxLayer>
+        {/* <SecondLayer/> */}
 
-      {/* <ParallaxLayer
+        {/* <ParallaxLayer
         sticky={{ start: 2, end: 4 }}
         className="flex justify-start md:items-center z-50 "
       >
@@ -157,9 +153,9 @@ function App() {
           </div>
         </div>
       </ParallaxLayer> */}
-    </Parallax>
-  </div>
-  )
+      </Parallax>
+    </div>
+  );
 }
 
-export default App
+export default App;
