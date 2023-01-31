@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 // import reactLogo from './assets/react.svg'
 // import './App.css'
-
+import TagCloud from "TagCloud";
 import FirstLayer from "./components/FirstLayer";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 // import snakeandladderImg from "./assets/snakeandladder.jpg";
@@ -10,9 +10,35 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 // import twitty from "./assets/twitty.jpg";
 // import triangle from "./assets/png/triangle.png";
 import TextSphere from "./components/TagCloud";
+
 function App() {
   const [count, setCount] = useState(0);
+  // useEffect(() => {
+    
+  //   return () => {
+  //     const container = ".tagcloud";
+  //     const texts = [
+  //       "ReactJS",
+  //       "NodeJs",
+  //       "JavaScript",
+  //       "CSS",
+  //       "Material UI",
+  //       "Tailwind",
+  //       "HTML",
+  //       "MySQL",
+  //     ];
+  //     const options = {
+  //       radius: 300,
+  //       initSpeed: "normal",
+  //       maxSpeed: "normal",
+  //       keep: true,
+  //       useContainerInlineStyles: true,
+  //       useItemInlineStyles:true
+  //     };
 
+  //     TagCloud(container, texts, options);
+  //   };
+  // }, []);
   return (
     <div>
       {/* bg-[#2D2E31] */}
@@ -44,6 +70,12 @@ function App() {
           </div>
           <div className="basis-1/2 flex justify-center items-center">
             <TextSphere />
+       
+            {/* <div className="flex w-full">
+      <div className="flex justify-center items-center">
+        <span className="tagcloud text-white text-2xl"></span>
+      </div>
+    </div> */}
           </div>
         </ParallaxLayer>
         <ParallaxLayer offset={2} speed={0.5} className="flex flex-col">
