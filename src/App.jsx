@@ -11,6 +11,7 @@ import snakeandladderImg from "../src/assets/snakeandladder.jpg";
 // import triangle from "../src/assets/png/triangle.png";
 // import spectacles from "../src/assets/spectacles1.jpg";
 import TextSphere from "./components/TagCloud";
+import { spectacles } from "./components/Spectacles";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -95,46 +96,34 @@ function App() {
             </div>
             <div className="md:basis-1/2  bg-gray-400  w-full ">
               <div className="grid grid-cols-2 h-full">
-                <div className="border h-52 flex justify-center items-center cursor-pointer">
-                  {/* <img
+                <div className="border flex justify-center items-center cursor-pointer">
+                  <img
                     src={spectacles}
                     alt="spectacles"
                     className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 h-full w-full"
-                  /> */}asd
-                  {/* <button className="absolute justify-center items-center bg-[#1D1D25] text-white p-2">view</button> */}
-                </div>
-                <div className="border h-52 flex justify-center items-center cursor-pointer">
-                  {/* <img
-                    src={twitty}
-                    alt="twitty"
-                    className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 h-full w-full"
-                  /> */}
-                  {/* <button className="absolute justify-center items-center bg-[#1D1D25] text-white p-2">view</button> */}
-                </div>
-                <div className="border h-52 flex justify-center items-center cursor-pointer">
-                  {/* <img
-                    src={snakeandladderImg}
-                    alt="snakeandladderImg"
-                    className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 h-full w-full"
-                  /> */}asd
-                  {/* <button className="absolute justify-center items-center bg-[#1D1D25] text-white p-2">view</button> */}
-                </div>
-                <div className="border h-52 flex justify-center items-center cursor-pointer flex-row hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150">
-                  {/* <img
-                    src={taraeat}
-                    alt="taraeat"
-                    className=" h-52 w-full"
                   />
-                   <img
-                    src={taraeat1}
-                    alt="taraeat1"
-                    className=" h-52 w-full"
-                  /> */}asd
-                  {/* <img
-                    src={snakeandladderImg}
-                    alt="snakeandladderImg"
+                  {/* <button className="absolute justify-center items-center bg-[#1D1D25] text-white p-2">view</button> */}
+                </div>
+                <div className="borderflex justify-center items-center cursor-pointer">
+                <img
+                    src={spectacles}
+                    alt="spectacles"
                     className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 h-full w-full"
-                  /> */}
+                  />
+                </div>
+                <div className="border flex justify-center items-center cursor-pointer">
+                <img
+                    src={spectacles}
+                    alt="spectacles"
+                    className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 h-full w-full"
+                  />
+                </div>
+                <div className="border  flex justify-center items-center cursor-pointer flex-row hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150">
+                <img
+                    src={spectacles}
+                    alt="spectacles"
+                    className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 h-full w-full"
+                  />
                 </div>
                 {/* <div className="border">1</div>
                 <div className="border">1</div> */}
@@ -161,7 +150,7 @@ function App() {
         speed={1}
         // enable={true}
         // horizontal={true}
-        className="bg-gray-500"
+        // className="bg-gray-500"
       >
         <div className="flex w-full flex-col gap-5 p-5">
             <div className="text-3xl font-semibold text-white">My <span className="text-colorTheme">Experience</span></div>
@@ -169,7 +158,13 @@ function App() {
               <div className="flex flex-row gap-1">
                 {/* <img src={triangle} alt="triangle" className="rotate-10 h-5" />  */}
                 <div>
-                  asdasdasdasd
+                  
+                    <ul>
+                      <li>asdasdasdasd</li>
+                      <li>asdasdasdasd</li>
+                    </ul>
+                    {/* <ul>asdasdasdasd</ul> */}
+                 
                 </div>
               </div>
              

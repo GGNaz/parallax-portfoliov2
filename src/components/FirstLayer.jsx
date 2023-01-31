@@ -26,8 +26,8 @@ function FirstLayer() {
           }}
           className=""
         >
-          <div className='h-screen w-full bg-darkColor -z-10 absolute opacity-70' />
-          <div className=" h-10 w-full z-40 absolute bottom-0 bg-gradient-to-b from-colorTheme/0 to-darkColor/100" />
+          <div className='h-screen w-full bg-[#14141B] -z-10 absolute opacity-70' />
+          <div className=" h-14 w-full z-40 absolute bottom-0 bg-gradient-to-b from-colorTheme/0 to-customBlack/100" />
           <div className="flex flex-row justify-between p-2 ">
             <div className="text-colorTheme flex flex-row gap-2 justify-center items-center">
               <div>NS</div>
