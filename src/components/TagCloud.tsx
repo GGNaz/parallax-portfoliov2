@@ -38,32 +38,32 @@ function TextSphere() {
         };
 
   return (
-    <div className="flex w-full">
-      <div className="flex justify-center items-center">
+    <div className="flex w-full justify-center items-center">
+    
         {/* <span className="tagcloud text-white text-2xl"></span> */}
         <TagCloud
         options={(w: Window & typeof globalThis): TagCloudOptions => ({
             radius: Math.min(500, w.innerWidth, w.innerHeight) / 2,
-            maxSpeed: "fast",
+            maxSpeed: "normal",
         })}
         className="text-white"
-        onClick={(tag: string, ev: MouseEvent) => alert(tag)}
-        onClickOptions={{ passive: true }}
+        // onClick={(tag: string, ev: MouseEvent) => alert(tag)}
+        // onClickOptions={{ passive: true }}
     >
         {[
             "VSCode",
-            "TypeScript",
-            "React",
-            "Preact",
-            "Parcel",
-            "Jest",
-            "Next",
-            "ESLint",
-            "Framer Motion",
-            "Three.js",
+            "NodeJs",
+            "ReactJs",
+            "Tailwind",
+            "Material UI",
+            "HTML",
+            "JavaScript",
+            "CSS",
+            "Git Lab",
+            "Git Hub",
         ]}
     </TagCloud>
-      </div>
+    
     </div>
   );
 }

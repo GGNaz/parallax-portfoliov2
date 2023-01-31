@@ -4,18 +4,18 @@ import { useEffect, useState } from "react";
 import TagCloud from "TagCloud";
 import FirstLayer from "./components/FirstLayer";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-// import snakeandladderImg from "./assets/snakeandladder.jpg";
-// import taraeat1 from "./assets/taraeat1.JPG";
-// import taraeat from "./assets/taraeat.JPG";
-// import twitty from "./assets/twitty.jpg";
-// import triangle from "./assets/png/triangle.png";
-import spectacles from "../src/assets/spectacles1.jpg"
+import snakeandladderImg from "../src/assets/snakeandladder.jpg";
+import taraeat1 from "../src/assets/taraeat1.jpg";
+import taraeat from "../src/assets/taraeat.jpg";
+import twitty from "../src/assets/twitty.jpg";
+import triangle from "../src/assets/png/triangle.png";
+import spectacles from "../src/assets/spectacles1.jpg";
 import TextSphere from "./components/TagCloud";
 
 function App() {
   const [count, setCount] = useState(0);
   // useEffect(() => {
-    
+
   //   return () => {
   //     const container = ".tagcloud";
   //     const texts = [
@@ -65,13 +65,13 @@ function App() {
             </div>
             <div className="text-[#BFBFC1] py-5 md:py-10 w-full md:w-[70%]">
               For a more <span className="text-colorTheme"> detailed</span>{" "}
-              overview, please feel free to check the tools that were used on a
+              overview, please feel free to check the tools that Im used on a
               per-project basis.
             </div>
           </div>
           <div className=" md:basis-1/2 flex w-full justify-center items-center">
             <TextSphere />
-       
+
             {/* <div className="flex w-full">
       <div className="flex justify-center items-center">
         <span className="tagcloud text-white text-2xl"></span>
@@ -79,40 +79,109 @@ function App() {
     </div> */}
           </div>
         </ParallaxLayer>
-        <ParallaxLayer offset={2} speed={0.5} className="flex flex-col">
+        <ParallaxLayer offset={2} speed={0.3} className="flex flex-col">
           <div className="bg-[#1D1D25] flex flex-col md:flex-row h-full w-full">
             <div className="md:basis-1/2  flex justify-center items-center h-full text-[#BFBFC1]">
-              <div className="flex flex-col gap-2 p-5">
-                <div className="text-2xl">Take a look of what Im created and inspired by</div>
-                <div><button  className="border border-colorTheme p-2">See more</button></div>
+              <div className="flex md:flex-col gap-2 p-5">
+                <div className="text-2xl basis-2/3">
+                  Take a look of what Im created and inspired by
+                </div>
+                <div className="basis-1/3 flex justify-center items-center md:justify-start md:items-start">
+                  <button className="border border-colorTheme p-2">
+                    See more
+                  </button>
+                </div>
               </div>
             </div>
-            <div className="md:basis-1/2  bg-gray-400 h-full w-full">
+            <div className="md:basis-1/2  bg-gray-400  w-full ">
               <div className="grid grid-cols-2 h-full">
-                  <div className="border flex justify-center items-center cursor-pointer"><img src={spectacles} onMo alt="spectacles" className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150"/> 
+                <div className="border h-52 flex justify-center items-center cursor-pointer">
+                  <img
+                    src={spectacles}
+                    alt="spectacles"
+                    className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 h-full w-full"
+                  />
                   {/* <button className="absolute justify-center items-center bg-[#1D1D25] text-white p-2">view</button> */}
-                  </div>
-                 <div className="border">1</div>
-                 <div className="border">1</div>
-                 <div className="border">1</div>
-                 <div className="border">1</div>
-                 <div className="border">1</div>
+                </div>
+                <div className="border h-52 flex justify-center items-center cursor-pointer">
+                  <img
+                    src={twitty}
+                    alt="twitty"
+                    className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 h-full w-full"
+                  />
+                  {/* <button className="absolute justify-center items-center bg-[#1D1D25] text-white p-2">view</button> */}
+                </div>
+                <div className="border h-52 flex justify-center items-center cursor-pointer">
+                  <img
+                    src={snakeandladderImg}
+                    alt="snakeandladderImg"
+                    className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 h-full w-full"
+                  />
+                  {/* <button className="absolute justify-center items-center bg-[#1D1D25] text-white p-2">view</button> */}
+                </div>
+                <div className="border h-52 flex justify-center items-center cursor-pointer flex-row hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150">
+                  <img
+                    src={taraeat}
+                    alt="taraeat"
+                    className=" h-52 w-full"
+                  />
+                   <img
+                    src={taraeat1}
+                    alt="taraeat1"
+                    className=" h-52 w-full"
+                  />
+                  {/* <button className="absolute justify-center items-center bg-[#1D1D25] text-white p-2">view</button> */}
+                </div>
+                {/* <div className="border">1</div>
+                <div className="border">1</div> */}
               </div>
             </div>
           </div>
-          <div className="h-full flex">
-          <div className="basis-1/2 flex justify-center p-10 items-center text-[#BFBFC1]">
-            
-                <div className="text-4xl font-semibold">Lets talk about the project</div>
-             
+          {/* <div className="h-full flex">
+            <div className="basis-1/2 flex justify-center p-10 items-center text-[#BFBFC1]">
+              <div className="text-4xl font-semibold">
+                Lets talk about the project
+              </div>
             </div>
             <div className="basis-1/2 flex justify-center p-5 items-center">
-             <button className="border border-colorTheme p-2 text-[#BFBFC1]">Contact me</button>
+              <button className="border border-colorTheme p-2 text-[#BFBFC1]">
+                Contact me
+              </button>
             </div>
-            </div>
+          </div> */}
         </ParallaxLayer>
         {/* <SecondLayer/> */}
-
+      
+       <ParallaxLayer
+        offset={3}
+        speed={1}
+        // enable={true}
+        // horizontal={true}
+        className="bg-gray-500"
+      >
+        <div className="flex w-full flex-col gap-5 p-5">
+            <div className="text-3xl font-semibold text-white">My <span className="text-colorTheme">Experience</span></div>
+            <div className="flex flex-col gap-2">
+              <div className="flex flex-row gap-1">
+                <img src={triangle} alt="triangle" className="rotate-10 h-5" /> 
+                <div>
+                  asdasdasdasd
+                </div>
+              </div>
+             
+            </div>
+        </div>
+      
+      </ParallaxLayer>
+       {/* <ParallaxLayer
+        offset={4}
+        speed={1}
+        horizontal={true}
+        className="bg-blue-500"
+      >
+        123123
+      </ParallaxLayer> */}
+      
         {/* <ParallaxLayer
         sticky={{ start: 2, end: 4 }}
         className="flex justify-start md:items-center z-50 "
