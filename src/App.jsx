@@ -50,13 +50,22 @@ function App() {
           <div className="bg-[#1D1D25] flex h-full">
             <div className="basis-1/2 flex justify-center items-center text-[#BFBFC1]">
               <div className="flex flex-col gap-2">
-                <div>Take a look of what we've created and inspired by</div>
-                <div className="border border-colorTheme">See more</div>
+                <div>Take a look of what Im created and inspired by</div>
+                <div><button  className="border border-colorTheme p-2">See more</button></div>
               </div>
             </div>
             <div className="basis-1/2">asdasdasd</div>
           </div>
-          <div className="h-full bg-red-500">Lets talk about the project</div>
+          <div className="h-full flex">
+          <div className="basis-1/2 flex justify-center p-10 items-center text-[#BFBFC1]">
+            
+                <div className="text-4xl font-semibold">Lets talk about the project</div>
+             
+            </div>
+            <div className="basis-1/2 flex justify-center p-5 items-center">
+             <button className="border border-colorTheme p-2 text-[#BFBFC1]">Contact me</button>
+            </div>
+            </div>
         </ParallaxLayer>
         {/* <SecondLayer/> */}
 
