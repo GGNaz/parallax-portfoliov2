@@ -7,9 +7,9 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import snakeandladderImg from "../src/assets/snakeandladder.jpg";
 // import taraeat1 from "../src/assets/taraeat1.jpg";
 // import taraeat from "../src/assets/taraeat.jpg";
-import twitty from "../src/assets/twitty.jpg";
-import triangle from "../src/assets/png/triangle.png";
-import spectacles from "../src/assets/spectacles1.jpg";
+// import twitty from "../src/assets/twitty.jpg";
+// import triangle from "../src/assets/png/triangle.png";
+// import spectacles from "../src/assets/spectacles1.jpg";
 import TextSphere from "./components/TagCloud";
 
 function App() {
@@ -96,27 +96,27 @@ function App() {
             <div className="md:basis-1/2  bg-gray-400  w-full ">
               <div className="grid grid-cols-2 h-full">
                 <div className="border h-52 flex justify-center items-center cursor-pointer">
-                  <img
+                  {/* <img
                     src={spectacles}
                     alt="spectacles"
                     className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 h-full w-full"
-                  />
+                  /> */}asd
                   {/* <button className="absolute justify-center items-center bg-[#1D1D25] text-white p-2">view</button> */}
                 </div>
                 <div className="border h-52 flex justify-center items-center cursor-pointer">
-                  <img
+                  {/* <img
                     src={twitty}
                     alt="twitty"
                     className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 h-full w-full"
-                  />
+                  /> */}
                   {/* <button className="absolute justify-center items-center bg-[#1D1D25] text-white p-2">view</button> */}
                 </div>
                 <div className="border h-52 flex justify-center items-center cursor-pointer">
-                  <img
+                  {/* <img
                     src={snakeandladderImg}
                     alt="snakeandladderImg"
                     className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 h-full w-full"
-                  />
+                  /> */}asd
                   {/* <button className="absolute justify-center items-center bg-[#1D1D25] text-white p-2">view</button> */}
                 </div>
                 <div className="border h-52 flex justify-center items-center cursor-pointer flex-row hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150">
@@ -129,12 +129,12 @@ function App() {
                     src={taraeat1}
                     alt="taraeat1"
                     className=" h-52 w-full"
-                  /> */}
-                  <img
+                  /> */}asd
+                  {/* <img
                     src={snakeandladderImg}
                     alt="snakeandladderImg"
                     className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 h-full w-full"
-                  />
+                  /> */}
                 </div>
                 {/* <div className="border">1</div>
                 <div className="border">1</div> */}
@@ -167,7 +167,7 @@ function App() {
             <div className="text-3xl font-semibold text-white">My <span className="text-colorTheme">Experience</span></div>
             <div className="flex flex-col gap-2">
               <div className="flex flex-row gap-1">
-                <img src={triangle} alt="triangle" className="rotate-10 h-5" /> 
+                {/* <img src={triangle} alt="triangle" className="rotate-10 h-5" />  */}
                 <div>
                   asdasdasdasd
                 </div>
