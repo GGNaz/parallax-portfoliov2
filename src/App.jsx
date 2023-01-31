@@ -5,8 +5,8 @@ import TagCloud from "TagCloud";
 import FirstLayer from "./components/FirstLayer";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import snakeandladderImg from "../src/assets/snakeandladder.jpg";
-import taraeat1 from "../src/assets/taraeat1.jpg";
-import taraeat from "../src/assets/taraeat.jpg";
+// import taraeat1 from "../src/assets/taraeat1.jpg";
+// import taraeat from "../src/assets/taraeat.jpg";
 import twitty from "../src/assets/twitty.jpg";
 import triangle from "../src/assets/png/triangle.png";
 import spectacles from "../src/assets/spectacles1.jpg";
@@ -120,7 +120,7 @@ function App() {
                   {/* <button className="absolute justify-center items-center bg-[#1D1D25] text-white p-2">view</button> */}
                 </div>
                 <div className="border h-52 flex justify-center items-center cursor-pointer flex-row hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150">
-                  <img
+                  {/* <img
                     src={taraeat}
                     alt="taraeat"
                     className=" h-52 w-full"
@@ -129,8 +129,12 @@ function App() {
                     src={taraeat1}
                     alt="taraeat1"
                     className=" h-52 w-full"
+                  /> */}
+                  <img
+                    src={snakeandladderImg}
+                    alt="snakeandladderImg"
+                    className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 h-full w-full"
                   />
-                  {/* <button className="absolute justify-center items-center bg-[#1D1D25] text-white p-2">view</button> */}
                 </div>
                 {/* <div className="border">1</div>
                 <div className="border">1</div> */}
