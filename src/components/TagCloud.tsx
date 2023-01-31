@@ -28,6 +28,14 @@ function TextSphere() {
   //     TagCloud(container, texts, options);
   //   };
   // }, []);
+  const options = {
+          radius: 300,
+          initSpeed: "normal",
+          maxSpeed: "normal",
+          keep: true,
+          useContainerInlineStyles: true,
+          useItemInlineStyles:true
+        };
 
   return (
     <div className="flex w-full">

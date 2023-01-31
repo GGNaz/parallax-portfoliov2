@@ -9,6 +9,7 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 // import taraeat from "./assets/taraeat.JPG";
 // import twitty from "./assets/twitty.jpg";
 // import triangle from "./assets/png/triangle.png";
+import spectacles from "../src/assets/spectacles1.jpg"
 import TextSphere from "./components/TagCloud";
 
 function App() {
@@ -57,18 +58,18 @@ function App() {
   <p className={styles.scrollText}>Scroll down</p>
 </ParallaxLayer> */}
         <FirstLayer />
-        <ParallaxLayer offset={1} speed={0.5} className="flex w-full h-screen">
-          <div className="basis-1/2 flex flex-col p-20 justify-center">
+        <ParallaxLayer offset={1} speed={0.2} className=" md:flex w-full">
+          <div className="flex md:basis-1/2 flex-col p-10 md:p-20 md:gap-5 justify-center">
             <div className="text-3xl font-semibold text-white">
               <span className="text-colorTheme">Skills</span> and tools
             </div>
-            <div className="text-[#BFBFC1] py-10 w-[70%]">
+            <div className="text-[#BFBFC1] py-5 md:py-10 w-full md:w-[70%]">
               For a more <span className="text-colorTheme"> detailed</span>{" "}
               overview, please feel free to check the tools that were used on a
               per-project basis.
             </div>
           </div>
-          <div className="basis-1/2 flex justify-center items-center">
+          <div className=" md:basis-1/2 flex w-full justify-center items-center">
             <TextSphere />
        
             {/* <div className="flex w-full">
@@ -79,14 +80,25 @@ function App() {
           </div>
         </ParallaxLayer>
         <ParallaxLayer offset={2} speed={0.5} className="flex flex-col">
-          <div className="bg-[#1D1D25] flex h-full">
-            <div className="basis-1/2 flex justify-center items-center text-[#BFBFC1]">
-              <div className="flex flex-col gap-2">
-                <div>Take a look of what Im created and inspired by</div>
+          <div className="bg-[#1D1D25] flex flex-col md:flex-row h-full w-full">
+            <div className="md:basis-1/2  flex justify-center items-center h-full text-[#BFBFC1]">
+              <div className="flex flex-col gap-2 p-5">
+                <div className="text-2xl">Take a look of what Im created and inspired by</div>
                 <div><button  className="border border-colorTheme p-2">See more</button></div>
               </div>
             </div>
-            <div className="basis-1/2">asdasdasd</div>
+            <div className="md:basis-1/2  bg-gray-400 h-full w-full">
+              <div className="grid grid-cols-2 h-full">
+                  <div className="border flex justify-center items-center cursor-pointer"><img src={spectacles} onMo alt="spectacles" className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150"/> 
+                  {/* <button className="absolute justify-center items-center bg-[#1D1D25] text-white p-2">view</button> */}
+                  </div>
+                 <div className="border">1</div>
+                 <div className="border">1</div>
+                 <div className="border">1</div>
+                 <div className="border">1</div>
+                 <div className="border">1</div>
+              </div>
+            </div>
           </div>
           <div className="h-full flex">
           <div className="basis-1/2 flex justify-center p-10 items-center text-[#BFBFC1]">
