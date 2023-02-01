@@ -97,10 +97,10 @@ function FirstLayer() {
             </div>
             <div className="md:flex md:basis-3/6 lg:basis-2/5 hidden relative justify-center">
            
-                <div className="bg-[#28292D] h-[80vh] w-[80vh] -z-10 bottom-0 inset-16 absolute shadow-[inset_0_-3px_20px_rgba(0,0,0,0.6)] rounded-full"></div>
+                <div className="bg-[#14141B] h-[80vh] w-[80vh] -z-10 bottom-0 inset-16 absolute shadow-[inset_0_-3px_20px_rgba(0,0,0,0.6)] rounded-full"></div>
        
               <ParallaxLayer  offset={0} speed={1.5} className="z-10">
-              <div className="bg-[#333438] shadow-lg z-10 absolute bottom-64 right-20 h-20 w-20 rounded-full">
+              <div className="bg-[#22222d] shadow-lg z-10 absolute bottom-64 right-20 h-20 w-20 rounded-full">
                 <img
                   src={htmlIcon}
                   alt="htmlIcon"
@@ -109,7 +109,7 @@ function FirstLayer() {
                 </div>
               </ParallaxLayer>
               <ParallaxLayer offset={0} speed={1} className="z-10 ">
-              <div className="bg-[#333438] shadow-lg z-10 absolute bottom-28 left-10  h-20 w-20 rounded-full">
+              <div className="bg-[#22222d] shadow-lg z-10 absolute bottom-28 left-10  h-20 w-20 rounded-full">
               <img
                   src={tailwindIcon}
                   alt="reactIcon"
@@ -119,7 +119,7 @@ function FirstLayer() {
                 
               </ParallaxLayer>
               <ParallaxLayer offset={0} speed={0.5} className="md:z-10 ">
-                <div className="bg-[#333438] shadow-lg z-10 absolute bottom-5 right-10 h-28 w-28 rounded-full">
+                <div className="bg-[#22222d] shadow-lg z-10 absolute bottom-5 right-10 h-28 w-28 rounded-full">
                   <img
                     src={javascriptIcon}
                     alt="javascriptIcon"

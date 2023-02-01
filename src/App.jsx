@@ -85,12 +85,14 @@ function App() {
         {/* <SecondLayer/> */}
       
        <ParallaxLayer
-        offset={3}
-        speed={1}
+    
+        factor={0}
+        speed={0.6}
         // enable={true}
         // horizontal={true}
         // className="bg-gray-500"
       >
+         <ParallaxLayer horizontal={true} enabled={true} offset={4} speed={0.5} className="z-50 ">
         <div className="flex w-full flex-col gap-5 p-5">
             <div className="text-3xl font-semibold text-white">My <span className="text-colorTheme">Experience</span></div>
             <div className="flex flex-col gap-2">
@@ -109,7 +111,7 @@ function App() {
              
             </div>
         </div>
-      
+        </ParallaxLayer>
       </ParallaxLayer>
        {/* <ParallaxLayer
         offset={4}

@@ -1,6 +1,8 @@
 import { ParallaxLayer } from '@react-spring/parallax'
 import React from 'react'
 import snakenladder from "../assets/snakeandladder.jpg"
+import spectacles1 from "../assets/spectacles1.jpg"
+import twitty from "../assets/twitty.jpg"
 
 function ProjectLayer() {
   return (
@@ -31,15 +33,15 @@ function ProjectLayer() {
                 </div>
                 <div className="borderflex justify-center items-center cursor-pointer">
                 <img
-                    src={snakenladder}
-                    alt="snakenladder"
+                    src={spectacles1}
+                    alt="spectacles1"
                     className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 h-full w-full"
                   />
                 </div>
                 <div className="border flex justify-center items-center cursor-pointer">
                 <img
-                    src={snakenladder}
-                    alt="snakenladder"
+                    src={twitty}
+                    alt="twitty"
                     className="hover:-translate-y-1 hover:scale-110 transition ease-in-out delay-150 h-full w-full"
                   />
                 </div>
