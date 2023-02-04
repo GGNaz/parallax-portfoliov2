@@ -1,7 +1,7 @@
 import { ParallaxLayer } from '@react-spring/parallax'
 import React from 'react'
 import snakenladder from "../assets/snakeandladder.jpg"
-import spectacles1 from "../assets/spectacles1.jpg"
+// import spectacles1 from "../assets/spectacles1.jpg"
 import twitty from "../assets/twitty.jpg"
 
 function ProjectLayer() {
