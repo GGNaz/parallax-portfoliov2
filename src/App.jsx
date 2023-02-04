@@ -13,6 +13,7 @@ import snakeandladderImg from "../src/assets/snakeandladder.jpg";
 import TextSphere from "./components/TagCloud";
 import { spectacles } from "./components/Spectacles";
 import ProjectLayer from "./components/ProjectLayer";
+import MyExperienceLayer from "./components/MyExperienceLayer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -60,8 +61,8 @@ function App() {
   <p className={styles.scrollText}>Scroll down</p>
 </ParallaxLayer> */}
         <FirstLayer />
-        <ParallaxLayer offset={1} speed={0.2} className=" md:flex w-full">
-          <div className="flex md:basis-1/2 flex-col p-10 md:p-20 md:gap-5 justify-center">
+        <ParallaxLayer offset={1} speed={0.2} className=" md:flex w-full justify-center items-center">
+          <div className="flex md:basis-1/2 flex-col p-5 md:p-10 lg:p-20 md:gap-5 justify-center">
             <div className="text-3xl font-semibold text-white">
               <span className="text-colorTheme">Skills</span> and tools
             </div>
@@ -83,36 +84,9 @@ function App() {
         </ParallaxLayer>
        <ProjectLayer/>
         {/* <SecondLayer/> */}
-      
-       <ParallaxLayer
-    
-        factor={0}
-        speed={0.6}
-        // enable={true}
-        // horizontal={true}
-        // className="bg-gray-500"
-      >
-         <ParallaxLayer horizontal={true} enabled={true} offset={4} speed={0.5} className="z-50 ">
-        <div className="flex w-full flex-col gap-5 p-5">
-            <div className="text-3xl font-semibold text-white">My <span className="text-colorTheme">Experience</span></div>
-            <div className="flex flex-col gap-2">
-              <div className="flex flex-row gap-1">
-                {/* <img src={triangle} alt="triangle" className="rotate-10 h-5" />  */}
-                <div>
-                  
-                    <ul>
-                      <li>asdasdasdasd</li>
-                      <li>asdasdasdasd</li>
-                    </ul>
-                    {/* <ul>asdasdasdasd</ul> */}
-                 
-                </div>
-              </div>
-             
-            </div>
-        </div>
-        </ParallaxLayer>
-      </ParallaxLayer>
+   
+       <MyExperienceLayer/>
+       
        {/* <ParallaxLayer
         offset={4}
         speed={1}

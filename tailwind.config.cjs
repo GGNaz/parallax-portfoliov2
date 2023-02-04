@@ -14,7 +14,8 @@ module.exports = {
       colors: {
         colorTheme: "#14F5D6",
         darkColor: "#2D2E31",
-        customBlack: "#14141B"
+        customBlack: "#14141B",
+        lightGray: "#BFBFC1"
       },
       screens: {
         sm: "480",

@@ -17,7 +17,7 @@ function FirstLayer() {
         //   speed={1}
           factor={0}
           style={{
-            backgroundImage: `url(https://images.pexels.com/photos/7241628/pexels-photo-7241628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,
+            backgroundImage: `url(https://static.vecteezy.com/system/resources/previews/006/430/145/non_2x/technology-background-concept-circuit-board-electronic-system-futuristic-hi-tech-light-on-dark-blue-free-vector.jpg)`,
             // backgroundColor: "#2D2E31",
             backgroundSize: "cover",
             height: "100vh",
@@ -81,7 +81,8 @@ function FirstLayer() {
             </div>
           </div>
           <div className="flex h-screen">
-            <div className="text-white  md:basis-3/6 lg:basis-3/5 w-full p-2">
+        
+            <div className="text-white lg:basis-1/2  w-full ">
               <div className="flex flex-col justify-center items-center h-screen">
                 <div>
                   <div className="text-6xl font-semibold">Hello </div>
@@ -95,9 +96,14 @@ function FirstLayer() {
                 </div>
               </div>
             </div>
-            <div className="md:flex md:basis-3/6 lg:basis-2/5 hidden relative justify-center">
+            <div className='flex lg:hidden flex-col items-center absolute bottom-5 left-1 right-1'>
+              <div className='text-white'>Scroll</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="text-white w-7 h-7">
+  <path fill-rule="evenodd" d="M20.03 4.72a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 11.69l6.97-6.97a.75.75 0 011.06 0zm0 6a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 111.06-1.06L12 17.69l6.97-6.97a.75.75 0 011.06 0z" clip-rule="evenodd" />
+</svg>
+</div>
+            <div className="lg:flex lg:basis-1/2  hidden relative justify-center">
            
-                <div className="bg-[#14141B] h-[80vh] w-[80vh] -z-10 bottom-0 inset-16 absolute shadow-[inset_0_-3px_20px_rgba(0,0,0,0.6)] rounded-full"></div>
+                {/* <div className="bg-[#14141B] h-[80vh] w-[80vh] -z-10 bottom-0 inset-16 absolute shadow-[inset_0_-3px_20px_rgba(0,0,0,0.6)] rounded-full"></div> */}
        
               <ParallaxLayer  offset={0} speed={1.5} className="z-10">
               <div className="bg-[#22222d] shadow-lg z-10 absolute bottom-64 right-20 h-20 w-20 rounded-full">

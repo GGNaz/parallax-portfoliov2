@@ -61,6 +61,8 @@ function TextSphere() {
             "CSS",
             "Git Lab",
             "Git Hub",
+            "Google Map",
+            "S3",
         ]}
     </TagCloud>
     
