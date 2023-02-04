@@ -74,7 +74,7 @@ function App() {
           </div>
           <div className=" md:basis-1/2 flex w-full justify-center items-center">
             <TextSphere />
-
+ 
             {/* <div className="flex w-full">
       <div className="flex justify-center items-center">
         <span className="tagcloud text-white text-2xl"></span>
