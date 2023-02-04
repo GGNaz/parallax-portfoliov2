@@ -63,6 +63,7 @@ function TextSphere() {
             "Git Hub",
             "Google Map",
             "S3",
+            "ChartJs",
         ]}
     </TagCloud>
     
