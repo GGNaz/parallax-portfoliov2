@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import TagCloud from "TagCloud";
 import FirstLayer from "./components/FirstLayer";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import snakeandladderImg from "../src/assets/snakeandladder.jpg";
+// import snakeandladderImg from "../src/assets/snakeandladder.jpg";
 // import taraeat1 from "../src/assets/taraeat1.jpg";
 // import taraeat from "../src/assets/taraeat.jpg";
 // import twitty from "../src/assets/twitty.jpg";
