@@ -15,7 +15,7 @@ function ProjectLayer() {
                   Featured <span className='text-colorTheme '>Projects</span>
                 </div>
                 <div className='text-justify'>Created as a part of the learning process, the goal was to build modern, responsive and useful web applications.</div>
-                <div className='text-justify'>To find out more details about a specific project, <span className='text-colorTheme'>please chick on it</span>.</div>
+                <div className='text-justify'>To find out more details about a specific project, <span className='text-colorTheme'>please click on it</span>.</div>
                 {/* <div className="basis-1/3 flex justify-center items-center md:justify-start md:items-start">
                   <button className="border border-colorTheme p-2">
                     See more
