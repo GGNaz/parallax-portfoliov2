@@ -40,8 +40,7 @@ function MyExperienceLayer() {
               > Google Maps API </a></span> 
          to display maps and markers. Overall, my skills and knowledge have allowed me to be a productive and effective junior developer.
         </div>
-      )
-
+      ),
     },
     {
       position: "Web Developer (Internship)",
@@ -70,10 +69,12 @@ Mechanization (PhilMech)</a></span>, I have acquired skills in layout design, sp
                 rel="noopener noreferrer"
               >Bootstrap grid system</a></span>. Additionally, I have also designed several login pages and certificates, taking into consideration the user interface and experience. The use of Bootstrap grid allowed me to create a responsive and structured layout, ensuring that the PDS and other pages are displayed correctly on various screen sizes. These skills have greatly enhanced my overall web development abilities and have allowed me to create visually appealing and functional web pages.
          </div>
-      )
-
+      ),
     }
   ]
+
+  
+
   return (
     <ParallaxLayer
         
